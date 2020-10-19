@@ -21,7 +21,7 @@ local function UpdateIndicatorName(info, value)
 	PlexusIndicatorsDynamic.db.profile[id].name = value
 	options.args[id].name = value
 	Plexus.options.args.PlexusIndicator.args[id].name = value
-	Plexus:UpdateOptionsForIndicator(id, value)
+	PlexusFrame:UpdateOptionsForIndicator(id, value)
 end
 
 local function DeleteIndicator(info)
@@ -30,7 +30,7 @@ local function DeleteIndicator(info)
 	options.args[id] = nil
 	PlexusFrame.db.profile.statusmap[id] = nil
 	Plexus.options.args.PlexusIndicator.args[id] = nil
-	for _, f in pairs(Plexus.registeredFrames) do
+	for _, f in pairs(PlexusFrame.registeredFrames) do
 		f:ClearIndicator(id)
 	end
 end
