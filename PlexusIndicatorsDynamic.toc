@@ -1,0 +1,20 @@
+#@retail@
+## Interface: 90001
+#@end-retail@
+#@non-retail@
+## Interface: 11305
+#@end-non-retail@
+## Version: @project-version@
+## Title: PlexusIndicatorsDynamic
+## Notes: Additional indicators for Plexus
+## Author: Doadin
+## X-Credits: Vincent
+## X-Category: UnitFrame
+## Dependencies: Plexus
+## OptionalDeps: Ace3
+## X-Curse-Project-ID: 414001
+
+Options.lua
+Texts.lua
+Icons.lua
+Box.lua
