@@ -13,6 +13,8 @@
 ## OptionalDeps: Ace3
 ## X-Curse-Project-ID: 414001
 
+## IconTexture: Interface\AddOns\Plexus\Media\icon
+
 Options.lua
 Texts.lua
 Icons.lua
