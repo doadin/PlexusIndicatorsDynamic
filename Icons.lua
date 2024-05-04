@@ -21,7 +21,7 @@ local function New(frame)
 
 	local text = icon:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
 	text:SetJustifyH("CENTER")
-	text:SetJustifyV("CENTER")
+	text:SetJustifyV("MIDDLE")
 	icon.text = text
 	return icon
 end
